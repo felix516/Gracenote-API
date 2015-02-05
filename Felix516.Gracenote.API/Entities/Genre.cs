@@ -6,6 +6,9 @@ using System.Xml.Serialization;
 
 namespace Felix516.Gracenote.API.Entites
 {
+    /// <summary>
+    /// Wrapper for a gracenote Genre
+    /// </summary>
     [XmlRoot("GENRE")]
     public class Genre
     {

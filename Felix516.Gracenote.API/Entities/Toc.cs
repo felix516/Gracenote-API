@@ -6,6 +6,9 @@ using System.Xml.Serialization;
 
 namespace Felix516.Gracenote.API.Entites
 {
+    /// <summary>
+    /// Wrapper for a Gracenote Table of contents definition
+    /// </summary>
     [Serializable]
     public class Toc
     {

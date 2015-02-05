@@ -9,6 +9,10 @@ using Felix516.Gracenote.API.Entites;
 
 namespace Felix516.Gracenote.API
 {
+    /// <summary>
+    /// General Utility class
+    /// Currently deals with XML Serialization and Deserialization
+    /// </summary>
     public static class Utility
     {
         private static XmlSerializer ser;

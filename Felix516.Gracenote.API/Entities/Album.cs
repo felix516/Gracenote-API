@@ -8,7 +8,7 @@ namespace Felix516.Gracenote.API.Entites
 {
     /// <summary>
     /// XML Wrapper class for a Gracenote Album
-    /// For more info on values see https://developer.gracenote.com/sites/default/files/web/webapi/index.html#music-overview/Album Data.html#kanchor25
+    /// For more info on values see "https://developer.gracenote.com/sites/default/files/web/webapi/index.html#music-overview/Album Data.html#kanchor25"
     /// </summary>
     [XmlRoot("ALBUM")]
     public class Album

@@ -9,6 +9,9 @@ using Felix516.Gracenote.API.Entites;
 
 namespace Felix516.Gracenote.API
 {
+    /// <summary>
+    /// Helper class to POST requests to the Gracenote web API
+    /// </summary>
     public static class WebRequestHelper
     {
         private static string requestUrl = "https://c13047040.web.cddbp.net/webapi/xml/1.0/";

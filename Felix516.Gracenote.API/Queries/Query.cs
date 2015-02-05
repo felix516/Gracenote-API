@@ -6,6 +6,9 @@ using System.Xml.Serialization;
 
 namespace Felix516.Gracenote.API
 {
+    /// <summary>
+    /// Base class for a Gracenote Query
+    /// </summary>
     [XmlInclude(typeof(Query_Toc))]
     [XmlInclude(typeof(Query_Fetch))]
     [XmlInclude(typeof(Query_Register))]
@@ -16,7 +19,9 @@ namespace Felix516.Gracenote.API
         {
         }
 
-
+        /// <summary>
+        /// Query command to executes
+        /// </summary>
         [XmlAttribute("CMD")]
         public string Cmd { get; set; }
     }

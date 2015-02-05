@@ -7,6 +7,11 @@ using Felix516.Gracenote.API.Entites;
 
 namespace Felix516.Gracenote.API
 {
+    /// <summary>
+    /// Wrapper for the Gracenote ALBUM_TOC Query that retrives one or more albums
+    /// Given Disc table of contents offsets.
+    /// For more info see "https://developer.gracenote.com/sites/default/files/web/html/Content/Music%20Web%20API/ALBUM_TOC.html"
+    /// </summary>
     [Serializable]
     public class Query_Toc : Query
     {

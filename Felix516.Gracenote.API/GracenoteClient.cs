@@ -51,6 +51,12 @@ namespace Felix516.Gracenote.API
             }
         }
 
+        /// <summary>
+        /// Instantiates a new instance of GracenoteClient
+        /// </summary>
+        /// <param name="authentication">ClientID and UserID to be used for subsequent Queries</param>
+        /// <param name="language">Language preference for Queries</param>
+        /// <param name="country">Country preferece for Queries</param>
         public GracenoteClient(Auth authentication, Language language, Country country)
         {
             this.authentication = authentication;
@@ -58,6 +64,13 @@ namespace Felix516.Gracenote.API
             this.SetCountry(country);
         }
 
+        /// <summary>
+        /// Initiates an ALBUM_TOC Query which retrieves one or more albums
+        /// based on a disc's table of contents
+        /// </summary>
+        /// <param name="mode">Single-Best mode of Query</param>
+        /// <param name="toc">Table of contents lookup string</param>
+        /// <returns>A Gracenote response containing one or more albums</returns>
         public Response Album_ToC(Query_Toc.Modes mode, string toc)
         {
             Query_Toc query = new Query_Toc(mode, toc);
@@ -65,6 +78,12 @@ namespace Felix516.Gracenote.API
             return WebRequestHelper.Get(r);
         }
 
+        /// <summary>
+        /// Initiates an ALBUM_FETCH Query which retrieves a single album given 
+        /// a Gracenote Identifier.
+        /// </summary>
+        /// <param name="gn_Id">Gracenote ID of Album</param>
+        /// <returns>A Gracenote response containing a single album</returns>
         public Response Album_Fetch(string gn_Id)
         {
             Query_Fetch query = new Query_Fetch(gn_Id);

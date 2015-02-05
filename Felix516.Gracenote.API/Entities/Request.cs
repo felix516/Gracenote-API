@@ -6,6 +6,9 @@ using System.Xml.Serialization;
 
 namespace Felix516.Gracenote.API.Entites
 {
+    /// <summary>
+    /// Wrapper of a gracenote Query
+    /// </summary>
     [XmlRoot("QUERIES", Namespace = "")]
     [Serializable]
     public class Request
