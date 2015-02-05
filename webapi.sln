@@ -1,0 +1,32 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Felix516.Gracenote.API.Tests", "Felix516.Gracenote.API.Tests\Felix516.Gracenote.API.Tests.csproj", "{8E3E32D3-602F-4D8E-8903-A831E4D797F2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Felix516.Gracenote.Client", "Felix516.Gracenote.Client\Felix516.Gracenote.Client.csproj", "{63DE6F78-540D-4E12-9428-DECE30A093DC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Felix516.Gracenote.API", "Felix516.Gracenote.API\Felix516.Gracenote.API.csproj", "{C2A6EC24-9136-4195-8DE9-07547902CF2F}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{8E3E32D3-602F-4D8E-8903-A831E4D797F2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8E3E32D3-602F-4D8E-8903-A831E4D797F2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8E3E32D3-602F-4D8E-8903-A831E4D797F2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8E3E32D3-602F-4D8E-8903-A831E4D797F2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{63DE6F78-540D-4E12-9428-DECE30A093DC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{63DE6F78-540D-4E12-9428-DECE30A093DC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{63DE6F78-540D-4E12-9428-DECE30A093DC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{63DE6F78-540D-4E12-9428-DECE30A093DC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C2A6EC24-9136-4195-8DE9-07547902CF2F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C2A6EC24-9136-4195-8DE9-07547902CF2F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C2A6EC24-9136-4195-8DE9-07547902CF2F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C2A6EC24-9136-4195-8DE9-07547902CF2F}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
