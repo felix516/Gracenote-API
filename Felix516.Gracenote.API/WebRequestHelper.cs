@@ -14,9 +14,9 @@ namespace Felix516.Gracenote.API
     /// </summary>
     public static class WebRequestHelper
     {
-        private static string requestUrl = "https://c13047040.web.cddbp.net/webapi/xml/1.0/";
+        //private static string requestUrl = "https://c13047040.web.cddbp.net/webapi/xml/1.0/";
 
-        public static Response Get(Request r)
+        public static Response Get(Request r, string requestUrl)
         {
             HttpWebRequest request = (HttpWebRequest)WebRequest.Create(requestUrl);
             string xmlString = Utility.SerializeRequest(r);

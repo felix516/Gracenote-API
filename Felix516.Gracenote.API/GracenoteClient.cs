@@ -75,7 +75,7 @@ namespace Felix516.Gracenote.API
         {
             Query_Toc query = new Query_Toc(mode, toc);
             Request r = new Request(this.authentication, this.lang, this.country, query);
-            return WebRequestHelper.Get(r);
+            return WebRequestHelper.Get(r, this.authentication.PostUrl);
         }
 
         /// <summary>
@@ -88,7 +88,7 @@ namespace Felix516.Gracenote.API
         {
             Query_Fetch query = new Query_Fetch(gn_Id);
             Request r = new Request(this.authentication, this.lang, this.country, query);
-            return WebRequestHelper.Get(r);
+            return WebRequestHelper.Get(r,this.authentication.PostUrl);
         }
     }
 }
