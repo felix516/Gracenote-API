@@ -6,8 +6,8 @@ namespace Felix516.Gracenote.API.Tests
     [TestClass]
     public class ApiTest
     {
-        private const string CLIENT_ID = "13047040-E9100E4611B5E772396DB2BCE657C6EC";
-        private const string USER_ID = "262146456072925734-4F498E93FB461B5B2C64C2822886C7CE";
+        private const string CLIENT_ID = "Insert Your Client ID Here";
+        private const string USER_ID = "Insert Your User ID Here";
 
         private const string O_BROTHER_GN_ID = "15145216-E6E0EB71C036B10B0C1158CE602C5FAC";
         private const string O_BROTHER_TOC = "150 20512 30837 50912 64107 78357 90537 110742 126817 144657 153490 160700 175270 186830 201800 218010 237282 244062 262600 272929";
